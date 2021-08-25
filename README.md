@@ -20,7 +20,7 @@ A `user.js`, which resides in the root directory of a Firefox profile, is used t
 16. `browser.safebrowsing.downloads.remote.enabled = false` : prevents Firefox from sending information about downloaded executable files to Google Safe Browsing to determine whether it should be blocked for safety reasons.  
 17. Disable Firefox prefetching pages it thinks you will visit next. Prefetching causes cookies from the prefetched site to be loaded and other potentially unwanted behavior:  
 17.1 `network.dns.disablePrefetch = true`  
-17.2 `network.dns.disablePrefetchFromHTTPS = true` 
+17.2 `network.dns.disablePrefetchFromHTTPS = true`  
 17.3 `network.predictor.enabled = false`  
 17.4 `network.predictor.enable-prefetch = false`  
 17.5 `network.prefetch-next = false`
